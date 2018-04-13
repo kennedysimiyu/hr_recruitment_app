@@ -6,7 +6,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="HR - IT Recruitment App">
+<meta name="description" content="Hr Recruitment App">
 <meta name="kennedy simiyu" content="React hr recruitment">
 <link rel="shortcut icon" href="assets/images/favicon.ico">
 
@@ -20,67 +20,62 @@
 
 </head>
 
-<body class="app header-fixed sidebar-fixed aside-menu-fixed aside-menu-hidden">
+<body>
 
-<div class="app-body">
-<div class="sidebar">
-<nav class="sidebar-nav">
+<div class="container">
+<form class="form-horizontal" role="form">
+              <center>  <h2>Job Application Form</h2>  </center>
+			  
+	<div class="row">
+		<div class="col-lg-6 col-md-6 col-sm-12">
+			<label class='control-label'>What Position are you applying for?</label>
+                <select>
+				<option>-- Select --</option>
+				<option>Software Developer</option>
+				<option>Recruitment Lead</option>
+				<option>Data Science Engineer</option>
+				<option>Test Automation Engineer</option>
+				<option>Mobile Application Developer</option>
+				<option>Field Officer</option>
+				<option>Infrustructure Manager</option>
+				</select>
+        </div>
+			  
+	</div>
 
-</nav>
-</div>
-
-<!-- Main content -->
-<main class="main">
-
-
-
-<div class="container-fluid">
-
-<div class="animated fadeIn">
-
-
-<div class="row">
-<div class="col-md-12">
-<div class="card">
-<div class="card-header">
-<i class="icon-note"></i> Job Application Form
-
-</div>
-<div class="card-block">
-<strong>Notes;</strong><br>
-Please ensure you fill in all the information in the mandatory fields of this form.<br>
-The uploded CV's should be in a pdf format<br>
-In the event you are uploading a project sample it should be zipped.
-
-<hr>
-
-<div class="row">
-
-<div class="col-md-12">
-<h6>Fill All the Fields</h6>
-<form id="signupForm" method="post" action="#">
-
-<div class="row">
-
-<div class="form-group col-sm-6">
-
+	
+	<div class="row">
+	    <div class="col-lg-4 col-md-4 col-sm-12">
+	        <label class='control-label'>First Name</label>
+            <input type="text" class="form-control" aria-label="...">
+        </div><!-- /input-group -->
+        <div class="col-lg-4 col-md-4 col-sm-12">
+	        <label class='control-label'>Middle Name</label>
+            <input type="text" class="form-control" aria-label="...">
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+	        <label class='control-label'>Last Name</label>
+            <input type="text" class="form-control" aria-label="...">
+        </div>
+	</div>	
+	
+	<div class="row">
+<div class="col-sm-6">
 <div class="form-group">
-<label class="form-control-label" for="staffid">StaffID</label>
-<input type="number" class="form-control" id="staffid" name="staffid" placeholder="Staff ID">
+<label class="form-control-label" for="department">Phone Number</label>
+<div class="input-group">
+                <input type="text" class="form-control" aria-describedby="basic-addon2" placeholder="07X-XXX-XXXX">
+                
+            </div>
+</div>
 </div>
 
-<div class="form-group">
-<label class="form-control-label" for="surname">Surname</label>
-<input type="text" class="form-control" id="surname" name="surname" placeholder="Surname">
 </div>
 
-<div class="form-group">
-<label class="form-control-label" for="firstname">First name</label>
-<input type="text" class="form-control" id="firstname" name="firstname" placeholder="First name">
-</div>
 
-<div class="form-group">
-<label class="form-control-label" for="department">Department</label>
+	
+	<div class="form-group">
+<label class="form-control-label" for="department">Email Address</label>
 <select id="department" name="department" class="form-control" size="1">
 <option value="">Please Department</option>
 <option value="1">Logistics</option>
@@ -91,94 +86,210 @@ In the event you are uploading a project sample it should be zipped.
 <option value="3">Communications</option>
 </select>
 </div>
+	
+	<div class="row">
+	    <div class="col-lg-6 col-md-6 col-sm-12">
+	        <label class='control-label'>Street Address Line1</label>
+            <div class="input-group">
+                <input type="text" class="form-control" aria-describedby="basic-addon2">
+                
+            </div>
+        </div><!-- /input-group -->
+          <div class="col-lg-6 col-md-6 col-sm-12">
+	        <label class='control-label'>Street Address Line2</label>
+            <div class="input-group">
+                <input type="text" class="form-control" aria-describedby="basic-addon2">
+                
+            </div>
+        </div><!-- /input-group -->
+	</div>	
+	
+	<div class="row">
+	    <div class="col-lg-6 col-md-6 col-sm-12">
+	        <label class='control-label'>City</label>
+            <div class="input-group">
+                <input type="text" class="form-control" aria-describedby="basic-addon2">
+                
+            </div>
+        </div><!-- /input-group -->
+          <div class="col-lg-6 col-md-6 col-sm-12">
+	        <label class='control-label'>City</label>
+            <div class="input-group">
+                <input type="text" class="form-control" aria-describedby="basic-addon2">
+                
+            </div>
+        </div><!-- /input-group -->
+	</div>	
+	
+	<div class="row">
+	    <div class="col-lg-6 col-md-6 col-sm-12">
+	        <label class='control-label'>Postal/Zip Code</label>
+            <div class="input-group">
+                <input type="text" class="form-control" aria-describedby="basic-addon2">
+                
+            </div>
+        </div><!-- /input-group -->
+          <div class="col-lg-6 col-md-6 col-sm-12">
+	        <label class='control-label'>Postal/Zip Code</label>
+            <div class="input-group">
+                <input type="text" class="form-control" aria-describedby="basic-addon2">
+                
+            </div>
+        </div><!-- /input-group -->
+	</div>	
+	
+	<div class="row">
+	    <div class="col-lg-6 col-md-6 col-sm-12">
+	        <label class='control-label'>State/Province</label>
+            <div class="input-group">
+                <input type="text" class="form-control" aria-describedby="basic-addon2">
+                
+            </div>
+        </div><!-- /input-group -->
+          <div class="col-lg-6 col-md-6 col-sm-12">
+	        <label class='control-label'>State/Province</label>
+            <div class="input-group">
+                <input type="text" class="form-control" aria-describedby="basic-addon2">
+                
+            </div>
+        </div><!-- /input-group -->
+	</div>
+	
+	<div class="row">
+	    <div class="col-lg-6 col-md-6 col-sm-12">
+	        <label class='control-label'>Country</label>
+            <div class="input-group">
+                <input type="text" class="form-control" aria-describedby="basic-addon2">
+                
+            </div>
+        </div><!-- /input-group -->
+          <div class="col-lg-6 col-md-6 col-sm-12">
+	        <label class='control-label'>Country</label>
+            <div class="input-group">
+                <input type="text" class="form-control" aria-describedby="basic-addon2">
+                
+            </div>
+        </div><!-- /input-group -->
+	</div>
+	
+	<div class="form-group">
+       <label class="form-control-label" for="department">Job Experience</label>
+               <div class="input-group">
+                <input type="text" class="form-control" aria-describedby="basic-addon2">
+                
+            </div>
+</div>
+
+<div class="row">
+	    <div class="col-lg-6 col-md-6 col-sm-12">
+	        <label class='control-label'>Position</label>
+            <div class="input-group">
+                <input type="text" class="form-control" aria-describedby="basic-addon2">
+                
+            </div>
+        </div><!-- /input-group -->
+          <div class="col-lg-6 col-md-6 col-sm-12">
+	        <label class='control-label'>Start Date</label>
+            <div class="input-group">
+                <input type="text" class="form-control" aria-describedby="basic-addon2">
+                
+            </div>
+        </div><!-- /input-group -->
+	</div>	
+	
+	<div class="row">
+	    <div class="col-lg-6 col-md-6 col-sm-12">
+	        <label class='control-label'>End Date</label>
+            <div class="input-group">
+                <input type="text" class="form-control" aria-describedby="basic-addon2">
+                
+            </div>
+        </div><!-- /input-group -->
+		<div class="col-lg-6 col-md-6 col-sm-12">
+	        <label class='control-label'>Responsibilities</label>
+            <div class="input-group">
+                <input type="text" class="form-control" aria-describedby="basic-addon2">
+                
+            </div>
+        </div><!-- /input-group -->
+          
+	</div>	
+
+	
+	<div class="form-group">
+<label class="form-control-label" for="department">Highest Level of Education</label>
+<div class="input-group">
+                <input type="text" class="form-control" aria-describedby="basic-addon2">
+                
+            </div>
+</div>
+	
+	<div class="form-group">
+<label class="form-control-label" for="department">Resume Attachment</label>
+<div class="input-group">
+                <input type="text" class="form-control" aria-describedby="basic-addon2">
+                
+            </div>
+</div>
 
 <div class="form-group">
-<label class="form-control-label" for="manager">Manager</label>
-<select id="manager" name="manager" class="form-control" size="1">
-<option value="">Please Manager</option>
-<option value="1">Andrew Wanyonyi</option>
-<option value="2">Evans Libeya</option>
-<option value="3">Wanjala Pauline</option>
-</select>
-</div>
-
-</div>
-
-<div class="form-group col-sm-6">
-
-<div class="form-group">
-<label class="form-control-label" for="equipment">Equipment</label>
-<select id="equipment" name="equipment" class="form-control" size="1">
-<option value="">Please Equipment</option>
-<option value="1">Laptop</option>
-<option value="2">Equipment #2</option>
-<option value="3">Equipment #3</option>
-</select>
+<label class="form-control-label" for="department">Sample Work Attachment</label>
+<div class="input-group">
+                <input type="text" class="form-control" aria-describedby="basic-addon2">
+                
+            </div>
 </div>
 
 <div class="form-group">
-<label class="form-control-label" for="equipment">Model</label>
-<select id="equipment" name="equipment" class="form-control" size="1">
-<option value="">Description</option>
-<option value="1">Acer</option>
-<option value="2">Hp</option>
-<option value="3">Lenovo</option>
-<option value="3">Dell</option>
-<option value="3">MAC</option>
-</select>
+<label class="form-control-label" for="department">Salary Expectations</label>
+<div class="input-group">
+                <input type="text" class="form-control" aria-describedby="basic-addon2">
+                
+            </div>
 </div>
 
 <div class="form-group">
-<label class="form-control-label" for="request_type">Request Type</label>
-<select id="request_type" name="request_type" class="form-control" size="1">
-<option value="">Please Request Type</option>
-<option value="1">Recurring Request</option>
-<option value="2">One Off Approval</option>
-</select>
+<label class="form-control-label" for="department">Where did you hear about this job?</label>
+<div class="input-group">
+                <select>
+				    <option> -- select --</option>
+					<option>Career Point</option>
+					<option>Linkedin</option>
+					<option>Job Web Kenya</option>
+					<option>Brighter Monday</option>
+					<option>A Friend</option>
+					<option>Others</option>
+				</select>
+                
+            </div>
 </div>
+
+
 
 <div class="form-group">
-<label class="form-control-label" for="dateout">Date Out</label>
-<input type="text" class="form-control" id="dateout" name="dateout" placeholder="Date Out">
+<button style="background: #167c66!important;" type="submit" class="btn btn-success" name="submit" value="Submit Request">Submit Application</button>
+</div>
+	
+	</form>
 </div>
 
-<div class="form-group">
-<label class="form-control-label" for="returndate">Return Date</label>
-<input type="text" class="form-control" id="returndate" name="returndate" placeholder="Expected Return Date">
-</div>
-
-</div>
-
-</div>
-<!--/.row-->
-
-<div class="form-group">
-<button style="background: #167c66!important;" type="submit" class="btn btn-success" name="submit" value="Submit Request">Submit Request</button>
-</div>
-</form>
-</div>
-
-</div>
-</div>
-</div>
-</div>
 <!-- /.col -->
-</div>
 <!-- /.row -->
 
-</div>
-</div>
 <!-- /.conainer-fluid -->
 </main>
 
 </div>
 
+<div class="container">
 <footer class="app-footer">
 <a href="#">Kennedy Simiyu</a> © Sample Code.
 <span class="float-right">
 Motto <a href="#">leaving the worries and living the code.</a>
 </span>
 </footer>
+
+</div>
 
 <!-- Bootstrap and necessary plugins -->
 <script src="assets/js/jquery.min.js"></script>
